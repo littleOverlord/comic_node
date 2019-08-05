@@ -1,0 +1,37 @@
+{
+  "name": "cccc",
+  "version": "0.19.0717",
+  "description": "collect comic",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-packager . cccc --win --out ../comic_nodejs/dist --arch=x64 --app-version=0.19.0717 --electron-version=3.0.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/littleOverlord/cccc.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "tdd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/littleOverlord/cccc/issues"
+  },
+  "homepage": "https://github.com/littleOverlord/cccc#readme",
+  "devDependencies": {
+    "electron-packager": "^12.2.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-stage-0": "^7.0.0",
+    "@babel/preset-typescript": "^7.1.0",
+    "electron": "^3.0.10",
+    "imagemin": "^6.0.0",
+    "imagemin-pngquant": "^6.0.0",
+    "j": "^1.0.0"
+  }
+}

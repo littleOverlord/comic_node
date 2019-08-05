@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>comic</title>
+    <style>
+    *{margin:0;padding:0;}
+    body{font-family: Arial, Helvetica, sans-serif;}
+    li{list-style: none;}
+    .projects{padding-left:10px;}
+    .project li{display: block;padding:5px 0;line-height:30px;font-size:14px;}
+    .project li:hover{background-color: #eaeaea;}
+    .selectButton{
+      margin: 0 auto;
+      width:100px;height:50px;text-align:center;line-height:50px;border:1px solid #ccc;
+    }
+    .selectButton{
+      cursor: pointer;
+    }
+    </style>
+  </head>
+  <body>
+    <h2 class="title">最近打开的项目：</h2>
+    <ul class="projects" id="projects">
+
+    </ul>
+    <div class="selectButton" id="selectButton" onclick="start()">开始采集</div>
+    <script src="./src/main.js"></script>
+  </body>
+</html>
